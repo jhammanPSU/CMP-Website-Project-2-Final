@@ -1,0 +1,234 @@
+
+
+a {
+	color: #b4341a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7e2514;
+}
+ul {
+  list-style-type: none;
+}
+
+
+/* HEADER STYLES */
+header {
+	vertical-align: center;
+	height: 250px;
+	min-width: cover;
+	margin: 0 auto;
+	text-align:left;
+	text-align: bottom;
+	padding-top: 10px;
+	background-image: url(../images/topbanner2.png);
+	background-image:cover;
+	background-repeat: none;
+    background-size: cover;
+	color: #fff;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: 400;
+    text-shadow: 1px 1px 2px #333;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-: 0px;
+    }
+
+header h2 {
+	font-weight: 400;
+	text-shadow: 1px 1px 2px #333;
+	margin-left:10px;
+}
+
+header h5 {
+	font-size: 48px;
+	font-weight:400;
+	text-shadow: 1px 1px 2px #333;
+	margin-top: 0px;
+	padding-: 0px;
+}
+
+header h6 {
+	font-weight: 400;
+	text-shadow: 1px 1px 2px #333;
+}
+
+	background-image: url(../images/tyler-casey-ficbiwfOPSo-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100%;
+
+img { height: auto; }
+
+
+
+
+}
+
+
+
+nav { background-color: #333; 
+	height: 15px;
+}
+nav ul { 
+	background-color: #222;
+	display: flex;
+	justify-content: left;
+
+}
+nav li { padding: 10px 10px; }
+nav a { color: #FFF; }
+nav a:hover { color: #333; }
+
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-image: url(../images/bk.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin:0;
+}
+
+
+/* MAIN STYLES */
+main {
+	padding: 0px;
+	margin: 0px;
+}
+main h2 { 
+	padding: 0px;
+	margin-top: 10px; }
+main h3 {
+	padding: 0px;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 10px bold;
+}
+main h2 {
+	margin-top: 0px;
+}
+
+p {
+	font-weight: 300;
+}
+
+
+.portfolio {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.portfolio article {
+    background-color: #eee;
+    padding: 1em;
+}
+
+.feature {
+}
+
+.proj-thumb {
+	box-shadow: 2px 2px 5px #999;
+	width: 100%;
+	height: auto;
+}
+
+
+.go-link:after {
+	content: ' \21D2';
+}
+.round {
+	border-radius: 50%;
+}
+
+.why {
+	text-align: center;
+}
+
+.more {}
+
+blockquote {
+	quotes: "\201C""\201D""\2018""\2019";
+	font-weight: 300;
+}
+
+blockquote:before {
+	content: open-quote;
+}
+blockquote:after {
+	content: close-quote;
+}
+
+footer {
+	color: red;	
+	background-color: #333;
+	height: 120px;
+
+}
+ul.social { 
+	width: 100%;
+	margin-top: 0;
+	padding-top: 20px;
+	list-style-type: none; 
+	color: #000;
+}
+.social li {
+	color: #FFF;
+	font-size:350;
+}
+.social a {
+	color: #000;
+}
+.social b {
+	color: #FFF;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.portfolio {
+		width: 80%;
+		margin: auto;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 40px;
+		grid-row-gap: 120px;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) {
+	.portfolio {
+		width: 80%;
+		margin: auto;
+		grid-template-columns: 1fr 1fr 1fr;
+		}
+		.feature{
+			grid-column: 1/3;
+			grid-row: 1/3;
+		}
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*slide show*/
+/*--------------------------------------------------------------------------*/
+
+/* 3. Style your slideshow */
+.slideshow {
+	width: auto;
+	height: auto;
+	margin: 20px auto;
+	outline: none;
+}
